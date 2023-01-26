@@ -1,4 +1,3 @@
-package MAINTENANCE;
 import java.text.DecimalFormat;
 import java.lang.Math;
 import java.util.InputMismatchException;
@@ -6,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.*;
 
-public class UnderDevelopment {
+public class Main {
 	
 	static ArrayList<String> Product = new ArrayList<String>();
 	static ArrayList<String> Color = new ArrayList<String>();
@@ -65,7 +64,7 @@ public class UnderDevelopment {
 		Payment.clear();
 	}
 }
-class OutputDetails extends UnderDevelopment{
+class OutputDetails extends Main{
 	
 	public static void printproducts() {
 		System.out.println("You have " + Product.size()+ " items in your cart");	//Print all the product you selected
@@ -77,7 +76,7 @@ class OutputDetails extends UnderDevelopment{
 											 }
 								}
 }
-class Development{
+class Category{
 	
 	void Menu() {
 		System.out.println("--------------------------------------------------------------------");
@@ -143,11 +142,11 @@ class ADIOSException extends Exception{
 		super(message);
 	}
 }
-class UnderMaintenance{
+class HTMLCSS{
 	static JFrame frame = new JFrame("Input Dialog");
-	static UnderDevelopment Data = new UnderDevelopment();
+	static Main Data = new Main();
 	static OutputDetails output = new OutputDetails();
-	static Development Menu = new Development();
+	static Category Menu = new Category();
 	static double sum =0;
 	static double change;
 	static DecimalFormat df = new DecimalFormat("#.00");
