@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel = "icon" href = "checkoutIcon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37ec14bf92.js" crossorigin="anonymous"></script>
+  </head>
+ <body>
+
+    <section id="header">
+      <a href="index.html"><img class="logo" src="adios.png"></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html"> <i class="fa-solid fa-house"></i>Home </a></li>
+          <li><a href="Product.html"> <i class="fa-solid fa-shirt"></i> Products </a></li>
+          <li><a href="ContactUs.html"> <i class="fa-brands fa-teamspeak"></i> Contact Us </a></li>
+          <li><a href="AboutUs.html"> <i class="fa-solid fa-people-group"></i> About Us </a></li>
+          <li id="lg-bag"><a href="LogIn.html"> <i class="fas fa-sign-in"></i> </a></li>
+          <li id="lg-bag"><a class="active" href="Cart.html"> <i class="fa-solid fa-bag-shopping"></i> </a></li>
+          <a href="#" id="close"><i class="fa-sharp fa-solid fa-xmark"></i> </a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a class="active" href="Cart.html"> <i class="fa-solid fa-bag-shopping"></i> </a>
+        <a href="LogIn.html"> <i class="fas fa-sign-in"></i> </a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+      </section>
+
+        <section id="cart" class="about-header">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Sizes</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="whitehb.png" alt=""></td>
+                        <td>White Hoodie</td>
+                        <td>
+                            <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                            </select>
+                        </td>
+                        <td>$2.2</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$2.2</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="greyhb.png" alt=""></td>
+                        <td>Grey Hoodie</td>
+                        <td>
+                            <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                            </select>
+                        </td>
+                        <td>$2.2</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$2.2</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                        <td><img src="blackhb.png" alt=""></td>
+                        <td>Black Hoodie</td>
+                        <td>
+                            <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                    <option>XL</option>
+                            </select>
+                        </td>
+                        <td>$2.2</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$2.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$6.6</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><Strong>Total</Strong></td>
+                        <td>$6.6</td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+
+       <!-- Footer or lower part of website-->
+     <section class="footer">
+      <p>Follow Us!</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="https://web.facebook.com/profile.php?id=100089080344651"><i class="fab fa-facebook"></i> </a>
+        <a href="#"><i class="fab fa-twitter"></i> </a>
+        <a href="#"><i class="fab fa-youtube"></i> </a>
+      </div>
+
+      <ul class="list">
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="AboutUs.html">About us</a> </li>
+        <li><a href="Terms&condition.html">Terms and Condition</a> </li>
+        <li><a href="Privacypolicy.html">Privacy Policy</a> </li>
+      </ul>
+
+      <p class="copyright">
+        Adios Clothing @ 2022-2023
+      </p>
+     </section>
+     <script src="script.js"></script>
+ </body>
+</html>
